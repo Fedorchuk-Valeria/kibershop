@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'pf_beausans_prolight';
+    src: url("https://fedorchuk-valeria.github.io/card-client-kiberone/fonts/PFBeauSansPro-Light.ttf") format("truetype");    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_mediumregular';
+    src: url("https://fedorchuk-valeria.github.io/card-client-kiberone/fonts/ofont.ru_Franklin Gothic Medium.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+    font-family: 'franklin_gothic_mediumregular';
+    font-size: 5vw;
+}
+
+span {
+    background: linear-gradient(146deg, #05b8be7d 0%, #1186957b 50%, #1c556e72 100%);
+    border-radius: 50px 0px 0px 50px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 350px;
+    font-size: 4.5vw;
+    font-family: 'franklin_gothic_mediumregular';
+}
+
+#kibershopText {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-top: -40px;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: right;
+}

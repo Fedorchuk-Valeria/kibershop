@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-image: url("waves.png");
+    background-image: url("waves.svg");
     background-size: cover;
     background-position: center;
     /* background-repeat: round; */
@@ -11,22 +11,38 @@ header {
     width: 100vw;
 }
 
+p {
+    font-family: 'franklin_gothic_mediumregular';
+    font-size: 3vw;
+    color: white;
+    border-bottom: solid;
+    margin-right: 5px;
+}
+
 #headerLine{
     position: fixed;
     background-color: #71D7D9;
     width: 100vw;
     display: flex;
-    justify-content: center;
     align-items: center; 
 }
 
 
 #headerButtons {
     width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center; 
 }
 
 #logoImg {
     width: 15vw;
     height: 7.5vw;
+    margin: 5px;
+}
+
+.iconImg {
+    width: 7vw;
+    height: 7vw;
     margin: 5px;
 }
