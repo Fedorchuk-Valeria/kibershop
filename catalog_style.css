@@ -14,6 +14,10 @@
 
 }
 
+html {
+    background-color: white;
+}
+
 
 h1 {
     font-family: 'franklin_gothic_mediumregular';
@@ -24,8 +28,8 @@ span {
     background: linear-gradient(146deg, #05b8be7d 0%, #1186957b 50%, #1c556e72 100%);
     border-radius: 50px 0px 0px 50px;
     padding: 15px;
-    padding-left: 40px;
-    padding-right: 350px;
+    padding-left: 5vw;
+    padding-right: 40vw;
     font-size: 4.5vw;
     font-family: 'franklin_gothic_mediumregular';
 }
@@ -40,4 +44,68 @@ span {
 .sectionTitle {
     display: flex;
     justify-content: right;
+}
+
+.productImg {
+    width: 40vw;
+    height: 40vw;
+    margin-bottom: -4vw;
+}
+
+.productCard {
+    background-color: #05b8be65;
+    width: 45vw;
+    height: 45vw;
+    border-radius: 5vw;
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: inherit;
+}
+
+.productName {
+    font-family: 'franklin_gothic_mediumregular';
+    font-size: 4vw;
+    color: white;
+    border-bottom: solid;
+    margin-bottom: -4.5vw;
+    margin-left: 2vw;
+}
+
+.productPrice {
+    font-family: 'franklin_gothic_mediumregular';
+    font-size: 4vw;
+    color: #92241F;
+    margin-left: 2vw;
+}
+
+.cartButton {
+    background-color: #05B9BE;
+    border-radius: 50vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 2vw;
+}
+
+.productsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.productListSection {
+    margin-bottom: 5vw;
 }

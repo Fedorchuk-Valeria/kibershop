@@ -11,7 +11,7 @@ header {
     width: 100vw;
 }
 
-p {
+#kiberons {
     font-family: 'franklin_gothic_mediumregular';
     font-size: 3vw;
     color: white;
@@ -38,11 +38,11 @@ p {
 #logoImg {
     width: 15vw;
     height: 7.5vw;
-    margin: 5px;
+    margin: 1vw;
 }
 
 .iconImg {
     width: 7vw;
     height: 7vw;
-    margin: 5px;
+    margin: 1vw;
 }
