@@ -16,6 +16,7 @@
 
 html {
     background-color: white;
+    font-family: 'pf_beausans_prolight';
 }
 
 
@@ -38,7 +39,7 @@ span {
     display: flex;
     flex-direction: row;
     margin-left: 10vw;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 .sectionTitle {
@@ -95,8 +96,26 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 0.8vw;
     margin-right: 2vw;
+}
+
+.signButton {
+    background-color: #FFFF;
+    border-radius: 10vw;
+    height: 1.6em;
+    width: 1.6em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8vw;
+    font-size: 3em;
+    margin: 1vw;
+}
+
+.productCount {
+    font-size: 3em;
 }
 
 .productsRow {
@@ -108,4 +127,11 @@ span {
 
 .productListSection {
     margin-bottom: 5vw;
+}
+
+.buttonsRowSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

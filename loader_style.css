@@ -1,11 +1,11 @@
 #loader {
-    margin: 50px;
+    margin: 15vw;
     content: "";
-    width: 50px;
-    height: 50px;
-    border: 5px solid #312f32;
+    width: 10vw;
+    height: 10vw;
+    border: 1vw solid #312f32;
     border-top-color: transparent;
-    border-radius: 50%;
+    border-radius: 50vw;
     animation: spin 1s linear infinite;
 }
 
