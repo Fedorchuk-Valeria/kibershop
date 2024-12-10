@@ -49,6 +49,10 @@ button {
     margin: 1vw;
 }
 
+#profileImg {
+    margin-right: 1vw;
+}
+
 .iconImg {
     width: 7vw;
     height: 7vw;
