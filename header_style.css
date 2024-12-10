@@ -32,7 +32,7 @@ button {
 }
 
 #headerLine{
-    position: fixed;
+    /* position: fixed; */
     background-color: #71D7D9;
     width: 100vw;
     display: flex;
