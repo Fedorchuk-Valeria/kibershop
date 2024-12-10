@@ -28,7 +28,7 @@ h1 {
 span {
     background: linear-gradient(146deg, #05b8be7d 0%, #1186957b 50%, #1c556e72 100%);
     border-radius: 50px 0px 0px 50px;
-    padding: 15px;
+    padding: 2vw;
     padding-left: 5vw;
     padding-right: 40vw;
     font-size: 4.5vw;
@@ -78,6 +78,7 @@ span {
     font-size: 4vw;
     color: white;
     border-bottom: solid;
+    border-width: 0.4vw;
     margin-bottom: -4.5vw;
     margin-left: 2vw;
 }
@@ -103,19 +104,20 @@ span {
 .signButton {
     background-color: #FFFF;
     border-radius: 10vw;
-    height: 1.6em;
-    width: 1.6em;
+    height: 7vw;
+    width: 7vw;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.8vw;
-    font-size: 3em;
+    font-size: 4vw;
     margin: 1vw;
+    color: rgb(0, 0, 0);
 }
 
 .productCount {
-    font-size: 3em;
+    font-size: 5vw;
 }
 
 .productsRow {

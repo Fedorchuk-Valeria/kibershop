@@ -11,11 +11,19 @@ header {
     width: 100vw;
 }
 
+button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 #kiberons {
     font-family: 'franklin_gothic_mediumregular';
     font-size: 3vw;
     color: white;
     border-bottom: solid;
+    border-width: 0.4vw;
     margin-right: 0.2vw;
 }
 
