@@ -10,9 +10,8 @@ header {
     background-image: url("waves.svg");
     background-size: cover;
     background-position: center;
-    /* background-repeat: round; */
     height: 30vw;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 button {
@@ -32,9 +31,9 @@ button {
 }
 
 #headerLine{
-    /* position: fixed; */
+    position: fixed;
     background-color: #71D7D9;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center; 
 }
