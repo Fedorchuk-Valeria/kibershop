@@ -9,6 +9,11 @@ footer {
     align-items: end;
 }
 
+i {
+    font-size: 1vw;
+}
+
+
 #companyInfo {
     display: flex;
     flex-direction: column;
