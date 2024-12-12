@@ -36,7 +36,7 @@ form {
 select {
     padding: 1vw;
     font-size: 6vw;
-    border: 0.5vw solid #eedd95;
+    border: 0.5vw solid #71d7d95a;
     border-radius: 2vw;
     max-width: 80vw;
 }
@@ -48,7 +48,7 @@ option {
 }
 
 button {
-    background-color: #F6C90E;
+    background-color: #71D7D9;
     color: #ffffff;
     border-radius: 2vw;
     padding: 2vw;
