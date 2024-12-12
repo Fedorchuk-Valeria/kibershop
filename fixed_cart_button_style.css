@@ -1,0 +1,30 @@
+#fixedCartSection {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2vw;
+    
+}
+
+#fixedCartButton {
+    background-color: #F7C90E;
+    border-radius: 30vw;
+    padding: 2vw;
+    box-shadow: 0.3vw 0.1vw 5vw rgb(56, 56, 56);
+}
+
+#fixedCartButtonImg {
+    width: 15vw;
+}
+
+#productInCartCount {
+    margin-left: 15vw;
+    font-size: 5.5vw;
+    font-family: 'franklin_gothic_mediumregular';
+    margin-bottom: -5vw;
+    background: #ffff;
+    padding: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    border-radius: 30vw;
+}

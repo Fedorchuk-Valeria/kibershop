@@ -27,7 +27,7 @@ h1 {
 
 span {
     background: linear-gradient(146deg, #05b8be7d 0%, #1186957b 50%, #1c556e72 100%);
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 5vw 0px 0px 5vw;
     padding: 2vw;
     padding-left: 5vw;
     padding-right: 40vw;
@@ -35,11 +35,15 @@ span {
     font-family: 'franklin_gothic_mediumregular';
 }
 
+button {
+    cursor: pointer;
+}
+
 #kibershopText {
     display: flex;
     flex-direction: row;
     margin-left: 10vw;
-    margin-top: -30px;
+    margin-top: -5vw;
 }
 
 .sectionTitle {
@@ -58,7 +62,7 @@ span {
     width: 45vw;
     height: 45vw;
     border-radius: 5vw;
-    margin: 2vw;
+    margin: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
