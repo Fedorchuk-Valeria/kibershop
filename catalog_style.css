@@ -35,6 +35,10 @@ span {
     font-family: 'franklin_gothic_mediumregular';
 }
 
+i {
+    font-size: 1.7vw;
+}
+
 button {
     cursor: pointer;
 }
