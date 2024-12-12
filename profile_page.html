@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Корзина</title>
+    <title>Заказы</title>
     <link rel="stylesheet" type="text/css" href="header_style.css">
-    <link rel="stylesheet" type="text/css" href="cart_page_style.css">
+    <link rel="stylesheet" type="text/css" href="profile_style.css">
     <link rel="stylesheet" type="text/css" href="order_style.css">
     <link rel="stylesheet" type="text/css" href="footer_style.css">
     <!-- <link rel="stylesheet" type="text/css" href="fixed_cart_button_style.css"> -->
@@ -23,7 +23,7 @@
 </header>
 <body>
     <section id="titleSection">
-        <p id="titleText">Корзина</p>
+        <p id="titleText">Мои покупки</p>
     </section>
     <section id="orderProducts">
         <div class="orderProductCard">
@@ -31,54 +31,25 @@
             <!-- <b><p class="cartProductName">Ноутбук</p></b> -->
             <section class="orderSection">
                 <b><p class="orderProductPrice">3800К</p></b>
-                <button class="orderButton">Предзаказ</button>
-            </section>
-            <section class="removeButtonSection">
-                <button><img src="remove.svg" class="removeButton"></button>
+                <b><p class="orderProductStatus">Заказано</p></b>
             </section>
         </div>
+
         <div class="orderProductCard">
             <img src="laptop_image.svg" class="orderProductImg">
             <!-- <b><p class="cartProductName">Ноутбук</p></b> -->
             <section class="orderSection">
                 <b><p class="orderProductPrice">3800К</p></b>
-                <button class="orderButton">Предзаказ</button>
-            </section>
-            <section class="removeButtonSection">
-                <button><img src="remove.svg" class="removeButton"></button>
+                <b><p class="orderProductStatus">Заказано</p></b>
             </section>
         </div>
+
         <div class="orderProductCard">
             <img src="laptop_image.svg" class="orderProductImg">
             <!-- <b><p class="cartProductName">Ноутбук</p></b> -->
             <section class="orderSection">
                 <b><p class="orderProductPrice">3800К</p></b>
-                <button class="orderButton">Предзаказ</button>
-            </section>
-            <section class="removeButtonSection">
-                <button><img src="remove.svg" class="removeButton"></button>
-            </section>
-        </div>
-        <div class="orderProductCard">
-            <img src="laptop_image.svg" class="orderProductImg">
-            <!-- <b><p class="cartProductName">Ноутбук</p></b> -->
-            <section class="orderSection">
-                <b><p class="orderProductPrice">3800К</p></b>
-                <button class="orderButton">Предзаказ</button>
-            </section>
-            <section class="removeButtonSection">
-                <button><img src="remove.svg" class="removeButton"></button>
-            </section>
-        </div>
-        <div class="orderProductCard">
-            <img src="laptop_image.svg" class="orderProductImg">
-            <!-- <b><p class="cartProductName">Ноутбук</p></b> -->
-            <section class="orderSection">
-                <b><p class="orderProductPrice">3800К</p></b>
-                <button class="orderButton">Предзаказ</button>
-            </section>
-            <section class="removeButtonSection">
-                <button><img src="remove.svg" class="removeButton"></button>
+                <b><p class="orderProductStatus">Заказано</p></b>
             </section>
         </div>
     </section>
@@ -87,7 +58,7 @@
             <p id="orderProductsCount">Товары: 3 шт.</p>
             <p id="orderKiberonsCount">Итого: 6000 К</p>
         </div>
-        <button id="fullOrderButton"><img src="money.svg" id="fullOrderButtonImg">Предзаказ</button>
+        <p id="orderHint">*Для изменения заказа свяжитесь с Вашим менеджером</p>
     </section>
 </body>
 <footer>
